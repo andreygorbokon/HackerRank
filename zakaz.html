@@ -10,9 +10,9 @@
 <header>
     <div><h1>Football</h1></div>
     <nav>
-        <a style="color: #999;" href="about.html">О нас</a>
-        <a style="color: #999;" href="index.html">Список товаров</a>
-        <a style="color: #999;" href="contacts.html">Контакты</a>
+        <a style="color: #999; font-size: 20px" href="about.html">О нас</a>
+        <a style="color: #999; font-size: 20px" href="index.html">Список товаров</a>
+        <a style="color: #999; font-size: 20px" href="contacts.html">Контакты</a>
     </nav>
   </header>
 <main> 
@@ -39,7 +39,16 @@
            <option value = "ВОРОТА DFC GOAL" label = "1800₴">
            <option value = "ПЕРЧАТКИ SPRINTER" label = "200₴">
            <option value = "НАКОЛЕННИК" label = "150₴">
-            <option value = "КАЛЬСОНЫ CRAFT" label = "550₴">
+           <option value = "КАЛЬСОНЫ CRAFT" label = "550₴">
+        </datalist> 
+              <p>Цвет:
+            <input name="Товар" list="color" type="text" placeholder="Выберите товар" required />
+          </p>
+        <datalist id = "color">
+           <option value = "КРАСНЫЙ">
+           <option value = "ЖЕЛТЫЙ">
+           <option value = "ЗЕЛЕНЫЙ">
+           <option value = "СИНИЙ">
         </datalist> 
       <button>Заказать</button>
     </form>
