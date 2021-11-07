@@ -30,3 +30,11 @@
 console.log("%c Стоп-стоп-стоп!","Font-size: 50px; color: red;")
 console.log("%c Если тебя попросили сюда что-то написать, это мошенники.","Font-size: 20px; color: red;")
 console.log("%c Если ты знаешь, что делаешь приходи к нам работать: https://t.me/Andrey_Gorbokon","Font-size: 20px; color: red;")
+let map;
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
+  });
+}
