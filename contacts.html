@@ -21,8 +21,15 @@
 <a style="color: black;" href="mailto:andrey.gorbokon@yandex.ru">andrey.gorbokon@yandex.ru</a>
 <br>
 <a style="color: black;" href="https://yandex.ru/maps/geo/kyiv/1444323261/?ll=30.681351%2C50.471586&utm_medium=mapframe&utm_source=maps&z=11.82">Киев, улица...</a>
-<div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/143/kyiv/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Киев</a><a href="https://yandex.ru/maps/geo/kyiv/1444323261/?ll=30.681351%2C50.471586&utm_medium=mapframe&utm_source=maps&z=11.82" style="color:#eee;font-size:12px;position:absolute;top:14px;">Киев — Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUqrSwTXB" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
-  </div>
+<div id="map"></div>
+
+  <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9FStHfNW0KwwWmu1q7frq2r_nmIU8H24&callback=initMap&libraries=&v=weekly"
+    async
+  ></script>
+
+
 </main>
 <footer class="footer">
   <div class="footer__addr">
